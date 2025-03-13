@@ -1,0 +1,30 @@
+/* Custom styles for the hero section */
+.hero {
+    background-image: url('https://mountsnowyurt.com/wp-content/uploads/Luxury-cabin-like-yurt-with-Starlink-internet-wood-stove-hot-tub-picnic-table-firepit-barrel-sauna-hammock-and-EV-charger-Mount-Snow-Yurt-scaled.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+}
+
+/* Additional styling for cards and sections */
+.services .card {
+    border: none; /* Remove card border */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.services .card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.about {
+    background-color: #f8f9fa; /* Light background for the About section */
+}
+
+/* Footer styles */
+footer {
+    padding: 20px 0; /* Padding for footer */
+}
